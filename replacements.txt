@@ -1,0 +1,7 @@
+# Replace any OpenSSH private key blocks
+-----BEGIN OPENSSH PRIVATE KEY-----==PRIVATE KEY REMOVED
+-----END OPENSSH PRIVATE KEY-----==PRIVATE KEY REMOVED
+
+# Replace any RSA private key blocks
+-----BEGIN RSA PRIVATE KEY-----==PRIVATE KEY REMOVED
+-----END RSA PRIVATE KEY-----==PRIVATE KEY REMOVED
