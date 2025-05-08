@@ -86,11 +86,10 @@ class ProductionSeeder extends Seeder
                         'description' => 'The private key for the Coolify host machine (localhost).',
                         'private_key' => $coolify_key,
                     ]);
-                    echo "SSH key found for the Coolify host machine (localhost).\n";
+                    echo "SSH key found for the AirDrive Cloud host machine (localhost).\n";
                 } else {
                     echo "No SSH key found for the Coolify host machine (localhost).\n";
-                    echo "Please read the following documentation (point 3) to fix it: https://coolify.
-                io/docs/knowledge-base/server/openssh/\n";
+                    echo "Please read the following documentation (point 3) to fix it: https://airdrive.cloud/\n";
                     echo "Your localhost connection won't work until then.";
                 }
             }
@@ -101,7 +100,7 @@ class ProductionSeeder extends Seeder
                 $server_details = [
                     'id' => 0,
                     'name' => 'localhost',
-                    'description' => "This is the server where Coolify is running on. Don't delete this!",
+                    'description' => "This is the server AirDrive Cloud Portal is running on. Don't delete this!",
                     'user' => $user,
                     'ip' => 'host.docker.internal',
                     'team_id' => 0,
