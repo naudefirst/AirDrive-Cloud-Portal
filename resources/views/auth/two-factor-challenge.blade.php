@@ -1,7 +1,7 @@
 <x-layout-simple>
     <section class="bg-gray-50 dark:bg-base" x-data="{ showRecovery: false }">
         <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
-    <img src="https://s3.ap-southeast-2.wasabisys.com/airdrive-coolify/air-drive-cloud-banner.png" alt="AirDrive Logo" class="w-[200px] mr-4" />
+    <img src="https://s3.ap-southeast-2.wasabisys.com/airdrive-coolify/AirDrive-Cloud-Portals-Banner.png" alt="AirDrive Logo" class="w-[200px] mr-4" />
 </div>
             <div class="w-full bg-white shadow md:mt-0 sm:max-w-md xl:p-0 dark:bg-base ">
                 <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
