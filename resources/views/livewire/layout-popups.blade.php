@@ -59,23 +59,26 @@
     <span x-show="popups.sponsorship">
         <x-popup>
             <x-slot:title>
-                Love Coolify as we do?
+                Welcome to AirDrive Cloud Portal
             </x-slot:title>
+            
             <x-slot:icon>
-                <img src="https://cdn-icons-png.flaticon.com/512/8236/8236748.png"
+                <img src="https://s3.ap-southeast-2.wasabisys.com/airdrive-coolify/AD-button.png"
                     class="w-8 h-8 sm:w-12 sm:h-12 lg:w-16 lg:h-16">
             </x-slot:icon>
+
             <x-slot:description>
-                <span>Please
-                    consider donating on <a href="https://github.com/sponsors/coollabsio"
-                        class="text-xs underline dark:text-white">GitHub</a> or <a
-                        href="https://opencollective.com/coollabsio"
-                        class="text-xs underline dark:text-white">OpenCollective</a>.<br><br></span>
+                <span>
+                  	 <a href="https://airdrive.one"
+                        class="text-xs underline dark:text-white">Terms & Conditions</a> or <a
+                        href="https://airdrive.one"
+                        class="text-xs underline dark:text-white">Our Privace Statement</a>.<br><br></span>
                 <span>It enables us to keep creating features without paywalls, ensuring our work remains free and
                     open.</span>
+                <span>From here you can Manage your Cloud Infrastruture. Your Data on your AirDrive Harware and Remote LXD Servers are Completely Private and Comtroleld by you, You decide who you want to shared your data with.</span>
             </x-slot:description>
             <x-slot:button-text @click="disableSponsorship()">
-                Disable This Popup
+                Disable
             </x-slot:button-text>
         </x-popup>
     </span>
