@@ -1,6 +1,6 @@
 {{ Illuminate\Mail\Markdown::parse('---') }}
 
 Thank you,<br>
-{{ config('app.name') ?? 'AirDrive Cloud Portal' }}
+{{ config('app.name') ?? 'Coolify' }}
 
-{{ Illuminate\Mail\Markdown::parse('[Contact Support](https://airdrive.cloud)') }}
+{{ Illuminate\Mail\Markdown::parse('[Contact Support](https://coolify.io/docs/contact)') }}

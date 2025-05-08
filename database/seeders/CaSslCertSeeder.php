@@ -17,7 +17,7 @@ class CaSslCertSeeder extends Seeder
 
                 if (! $existingCaCert) {
                     $caCert = SslHelper::generateSslCertificate(
-                        commonName: 'AirDrive CA Certificate',
+                        commonName: 'coolify CA Certificate',
                         serverId: $server->id,
                         isCaCertificate: true,
                         validityDays: 10 * 365
